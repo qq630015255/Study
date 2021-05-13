@@ -8,7 +8,7 @@
   },
   "encryptLevel": 1,
   "useFeatures": [],
-  "icon": "res/logo.png",
+  "icon": "res/lg.png",
   "launchConfig": {
     "displaySplash": false,
     "hideLogs": false,
@@ -16,13 +16,13 @@
     "stableMode": false
   },
   "main": "main.js",
-  "name": "懒人学习",
+  "name": "Study",
   "optimization": {
     "removeOpenCv": true,
     "unusedResources": true
   },
-  "packageName": "com.lazyxue",
+  "packageName": "com.Study.1.0",
   "scripts": {},
-  "versionCode": 2,
-  "versionName": "2.6.4"
+  "versionCode": 1,
+  "versionName": "1.0"
 }

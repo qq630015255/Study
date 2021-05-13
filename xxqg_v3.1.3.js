@@ -444,10 +444,11 @@ function start_app() {
         console.error("找不到学习强国App!");
         return;
     }
-    while (!desc("工作").exists()) {
+    while (!text("我的").exists()) {
         console.log("正在等待加载出主页");
         delay(1);
     }
+    console.log("下一个");
     delay(1);
 }
 
